@@ -81,27 +81,27 @@ export default defineConfig({
 								label: "Running",
 							},
 							{
-								value: "Coding",
-								label: "Coding",
+								value: "3D Printing",
+								label: "3D Printing",
 							},
 							{
-								value: "learning",
+								value: "Learning",
 								label: "Learning",
 							},
 							{
-								value: "meta",
-								label: "Meta",
+								value: "Living abroad",
+								label: "Living abroad",
 							},
 							{
-								value: "work",
+								value: "Work",
 								label: "Work",
 							},
 							{
-								value: "personal",
-								label: "Personal",
+								value: "Reading",
+								label: "Reading",
 							},
 							{
-								value: "musings",
+								value: "Musings",
 								label: "Musings",
 							},
 						],

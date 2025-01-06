@@ -224,14 +224,18 @@ h3 {
 }
 
 .header-section {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
 }
 
 .header-frame {
-	max-width: 350px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 70ch;
+    width: 100%;
 }
 
 article :not(.article-title) {
@@ -264,4 +268,25 @@ ul li time {
 	nav a:not(:last-child) {
 		padding: 0;
 	}
+}
+
+.text-content {
+    flex: 1;
+}
+
+.site-title {
+    margin: 0 0 0.5rem 0;
+}
+
+.site-description {
+    margin: 0;
+    color: var(--gray);
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
 }

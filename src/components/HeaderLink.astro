@@ -12,7 +12,8 @@ if (href === "/") {
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
 	<slot />
-</a>
+	{console.log('HeaderLink:', href, isActive)} 
+  </a>
 <style>
 	a {
 		display: inline-block;

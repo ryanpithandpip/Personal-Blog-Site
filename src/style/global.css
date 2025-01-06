@@ -270,6 +270,19 @@ ul li time {
 	}
 }
 
+.text-content {
+    flex: 1;
+}
+
+.site-title {
+    margin: 0 0 0.5rem 0;
+}
+
+.site-description {
+    margin: 0;
+    color: var(--gray);
+}
+
 .profile-picture {
     width: 220px;
     height: 220px;

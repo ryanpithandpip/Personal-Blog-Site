@@ -12,8 +12,7 @@ if (href === "/") {
 
 <a href={href} class:list={[className, { active: isActive }]} {...props}>
 	<slot />
-	{console.log('HeaderLink:', href, isActive)} 
-  </a>
+</a>
 <style>
 	a {
 		display: inline-block;
@@ -21,7 +20,7 @@ if (href === "/") {
 	}
 	a.active {
 		font-weight: bolder;
-		text-decoration: underline !important;
+		text-decoration: underline;
 		text-decoration-thickness: 0.3ex;
 		text-underline-offset: 0.3ex;
 	}
